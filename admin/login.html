@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>Logowanie</title>
+</head>
+<body>
+    <div class="col-12 mt-5">
+        <h1 class="text-center fw-bold">Panel logowania</h1>
+    </div>
+    <form class="form-singin m-5 d-flex justify-content-center flex-column" action="login.php" method="POST">
+        <div class="form-group col-lg-4 col-md-6 col-sm-12 mx-auto mt-5">
+            <label for="nick">Nick</label>
+            <input type="text" name="nick" id="nick" placeholder="Nick" class="form-control mt-2">
+        </div>
+        <div class="form-group col-lg-4 col-md-6 col-sm-12 mx-auto mt-5">
+            <label for="password">Hasło</label>
+            <input type="password" name="password" id="password" placeholder="Hasło" class="form-control mt-2">
+        </div>
+        <div class="form-group col-lg-4 col-md-6 col-sm-12 mx-auto mt-5">
+            <input type="submit" value="Zaloguj" class="btn btn-secondary form-control">
+        </div>
+    </form>
+</body>
+</html>

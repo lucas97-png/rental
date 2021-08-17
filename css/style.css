@@ -1,0 +1,55 @@
+header {
+    height: 100vh;
+    background-image: url('../assets/header.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+header button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 26px;
+}
+
+.card img {
+    height: 200px;
+}
+
+#reservation {
+    background-image: url('../assets/reservation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#reservation h1 {
+    color: #f50b32;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#up-button {
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    outline: none;
+    cursor: pointer;
+}
